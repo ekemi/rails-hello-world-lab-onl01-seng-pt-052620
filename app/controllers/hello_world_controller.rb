@@ -1,6 +1,5 @@
-class HelloWorldController < ApplicationController
-
-def hello_world
-  render :hello_world
-end
+class HelloWorldsController < ApplicationController
+  def hello_world
+    render :hello_world
+  end
 end
