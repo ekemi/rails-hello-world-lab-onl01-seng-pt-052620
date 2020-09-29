@@ -1,5 +1,5 @@
 class HelloWorldsController < ApplicationController
   def hello_world
-    render :'hello_worlds'
+    render :'hello_world.html'
   end
 end
